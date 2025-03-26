@@ -12,7 +12,7 @@ public class RNSystemSoundsModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
-    private ToneGenerator toneGenerator = new ToneGenerator(AudioManager.STREAM_SYSTEM, 100);
+    private ToneGenerator toneGenerator = new ToneGenerator(AudioManager.STREAM_NOTIFICATION, 100);
 
     public RNSystemSoundsModule(ReactApplicationContext reactContext) {
         super(reactContext);
